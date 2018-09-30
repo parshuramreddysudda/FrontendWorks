@@ -1,0 +1,33 @@
+.navbar-light .navbar-nav .nav-link {
+  background-size:contain;
+  background-repeat:no-repeat;
+}
+
+.navbar.navbar-light.navbar-expand-md {
+}
+
+.form-inline .form-control {
+  background-image:url("../../assets/img/magnifier.png");
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position:right;
+  border-radius:20px;
+}
+
+.nav-item {
+}
+
+.page-content-wrapper {
+  border-radius:20px;
+}
+
+#wrapper {
+}
+
+b {
+}
+
+.card {
+  border-radius:20px;
+}
+
