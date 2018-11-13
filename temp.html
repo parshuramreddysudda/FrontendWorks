@@ -1,2 +1,44 @@
+
+
+
 <div class="call-animation">
 <img class="img-circle" src="https://placeimg.com/400/400/people" alt="" width="135" style="width: 135px;height: 135px;border-radius: 100%;position: absolute;left: 0px;top: 0px;"><div>
+
+	<style type="text/css">body {
+  background: #71AFFF;
+  padding: 100px;
+}
+.call-animation {
+    background: #fff;
+    width: 135px;
+    height: 135px;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 100%;
+    border: solid 5px #fff;
+    animation: play 2s ease infinite;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+  
+}
+ 
+@keyframes play {
+
+    0% {
+        transform: scale(1);
+    }
+    15% {
+        box-shadow: 0 0 0 5px rgba(252, 255, 255, 0.4);
+    }
+    25% {
+        box-shadow: 0 0 0 10px rgba(253, 255, 255, 0.4), 0 0 0 20px rgba(255, 255, 255, 0.2);
+    }
+    25% {
+        box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.4), 0 0 0 30px rgba(255, 255, 255, 0.2);
+    }
+
+}
+
+</style>
